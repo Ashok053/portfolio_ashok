@@ -1,7 +1,19 @@
 {
-  "name": "ml-portfolio",
+  "name": "ashok-lamsal-portfolio",
+  "description": "Portfolio of Ashok Lamsal - Machine Learning Engineer specializing in Deep Learning, NLP, LLMs, and Gen AI",
+  "keywords": ["machine learning", "ai", "portfolio", "ashok lamsal", "deep learning", "nlp", "llm"],
+  "author": {
+    "name": "Ashok Lamsal",
+    "email": "ashoklamsal007@gmail.com",
+    "url": "https://ashok-lamsal.com.np"
+  },
+  "homepage": "https://ashok-lamsal.com.np",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashoklamsal/ml-portfolio"
+  },
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,16 +21,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0",
-    "vite": "^7.2.7"
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.11"
   }
 }
