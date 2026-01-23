@@ -9,6 +9,15 @@ const Projects = () => {
       github: 'https://github.com/ashok053/career-recommendations'
     },
     {
+      title: 'MedicoAgent: Multilingual AI Health Assistant(major internship Project)',
+      problem: 'Patients often misinterpret medical information due to language barriers and low health literacy, increasing health risks.',
+      approach: 'Built a multilingual LLM-based pipeline with scraping of trusted sources (WHO, FDA, MedlinePlus), structured ingestion, semantic retrieval, and safety-constrained response generation.',
+      tech: ['Python', 'LLMs', 'NLP', 'PostgreSQL', 'Qdrant', 'Web Scraping', 'ASR flow, TTS', 'FastAPI','Streamlit', ],
+      learnings: 'Gained hands-on experience in LLM safety constraints, human-in-the-loop (HITL) validation, and designing reliable AI workflows for sensitive domains.',
+      outcome: 'Delivered a working AI assistant that improves access to understandable health information through structured retrieval and controlled generation.',
+      github: 'https://github.com/ashok053/medicoagent'
+    },
+    {
       title: 'Customer Churn Prediction – ML-Based Classification',
       problem: 'Built a leakage-proof churn prediction system using clean feature pipelines, stratified splitting, and nested cross-validation.',
       approach: 'Compared baseline and advanced models (LogReg, Random Forest, XGBoost), handled class imbalance with class weights/SMOTE, evaluated performance using ROC-AUC & PR-AUC. Applied SHAP explainability, probability calibration, fairness slice analysis, and exported versioned model artifacts with FastAPI + Streamlit UI.',

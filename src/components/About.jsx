@@ -12,22 +12,8 @@ const About = () => {
           About Me
         </h2>
         
-        {/* Container with photo and text */}
+        {/* Container with text */}
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-          
-          {/* Photo Section - Circle Version */}
-          <div className="flex-shrink-0">
-            <div className="relative w-48 h-48 md:w-64 md:h-64">
-              <img
-                src="/profile.jpg"
-                alt="Ashok Lamsal - Machine Learning Engineer"
-                className="w-full h-full object-cover rounded-full border-4 border-blue-600 dark:border-blue-400 shadow-xl"
-                itemProp="image"
-              />
-              {/* Optional: Glowing effect */}
-              <div className="absolute inset-0 rounded-full bg-blue-600 opacity-20 blur-xl -z-10"></div>
-            </div>
-          </div>
 
           {/* Text Section */}
           <div className="flex-1 space-y-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -35,7 +21,7 @@ const About = () => {
               I'm <span itemProp="name"><strong>Ashok Lamsal</strong></span>, a final year{' '}
               <span itemProp="alumniOf">Computer Science student</span> with a deep passion for{' '}
               <strong>artificial intelligence</strong> and <strong>machine learning</strong>. 
-              Currently, I am working as an{' '}
+              Currently, I had completed my internship as {' '}
               <span itemProp="jobTitle">
                 <strong>AI/ML Intern at Frost Digital Venture</strong>
               </span>{' '}

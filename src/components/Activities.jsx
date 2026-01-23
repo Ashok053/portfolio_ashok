@@ -2,7 +2,7 @@ const Activities = () => {
   const activities = [
     {
       title: 'AI/ML Intern : Frost Digital Venture(Frost & sullivan)',
-      duration: '2025 november – Present',
+      duration: '2025 november – 2026 January',
       description:
         'Working as AI/ML intern focused on machine learning and AI, contributing to real-world projects involving data preprocessing, model development, and deployment. Gained hands-on experience in applying ML techniques to solve practical problems under supervison of Mr. Binayek Pokhrel',
     },
