@@ -5,7 +5,7 @@ const Hero = () => {
       className="min-h-screen flex items-center justify-center pt-16 px-4"
       aria-label="Hero section"
     >
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight tracking-tight">
             Hi, I&apos;m{' '}
             <span className="text-blue-600 dark:text-blue-400" itemProp="name">
@@ -14,8 +14,8 @@ const Hero = () => {
           </h1>
 
 
-          <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8" itemProp="jobTitle">
-            Machine Learning Engineer | Associate AI Engineer @ Frost Digital Venture
+          <h2 className="text-xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8 leading-tight" itemProp="jobTitle">
+            Machine Learning Engineer | Associate AI Engineer at <span className="whitespace-nowrap">Frost Digital Venture</span>
           </h2>
 
 
@@ -30,7 +30,7 @@ const Hero = () => {
   I have joined the team full-time as an <strong>Associate AI Engineer</strong>. My journey here has deepened my expertise in Deep Learning, NLP, LLMs, and Generative AI, and I now contribute to impactful projects, driving innovation and delivering AI-powered solutions.
 </p>
 
-          <div className="flex md:justify-start justify-center gap-4 flex-wrap">
+          <div className="flex justify-center gap-4 flex-wrap">
             <a
               href="#projects"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 transition-colors font-medium"
