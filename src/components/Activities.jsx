@@ -1,6 +1,12 @@
 const Activities = () => {
   const activities = [
     {
+      title: 'Associate AI Engineer: Frost Digital Venture (Frost & Sullivan)',
+      duration: 'February 2026 – Present',
+      description:
+        'Working as an Associate AI Engineer on production-focused AI initiatives, including generative AI systems, NLP pipelines, LLM-powered applications, and agent-based workflows. Contributing to model development, evaluation, orchestration, and deployment for real-world business use cases.'
+    },
+    {
       title: 'AI/ML Intern: Frost Digital Venture (Frost & Sullivan)',
       duration: 'November 2025 – January 2026',
       description:
