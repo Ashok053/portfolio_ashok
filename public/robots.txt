@@ -1,16 +1,8 @@
-txt
-# Allow all search engines to crawl
 User-agent: *
 Allow: /
 
-# Sitemap location
 Sitemap: https://ashok-lamsal.com.np/sitemap.xml
+# Sitemap location
 
-# Crawl delay (optional)
-Crawl-delay: 10
-
-# Block specific bots if needed (optional)
-# User-agent: BadBot
-# Disallow: /
-
+Sitemap: https://ashok-lamsal.com.np/sitemap.xml
 

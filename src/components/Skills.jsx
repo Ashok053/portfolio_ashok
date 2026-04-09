@@ -1,20 +1,20 @@
 const Skills = () => {
 const skillCategories = [
   {
-    title: 'Programming and CS ',
-    skills: ['Python', 'SQL', 'OOPs','DSA','Operating Systems','DBMS','cloud']
+    title: 'Programming & Computer Science',
+    skills: ['Python', 'SQL', 'OOP', 'Data Structures & Algorithms', 'Operating Systems', 'DBMS', 'Cloud']
   },
   {
-    title: 'ML & DL ',
+    title: 'Machine Learning & Deep Learning',
     skills: [
       'Classical ML',
-      'Deep learnings',
-      'Natural language Processing',
+      'Deep Learning',
+      'Natural Language Processing',
       'Transformers',
       'Scikit-learn',
-      'Pytorch',
+      'PyTorch',
       'TensorFlow',
-      'Model development and deployment'
+      'Model Development & Deployment'
     ]
   },
   {
@@ -44,8 +44,8 @@ const skillCategories = [
     skills: [
       'Pandas',
       'NumPy',
-      'matplotlib & seaborn',
-      'streamlit',
+      'Matplotlib & Seaborn',
+      'Streamlit',
       'Docker',
       'FastAPI',
       'Git & GitHub'

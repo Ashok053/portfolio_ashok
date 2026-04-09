@@ -1,0 +1,11 @@
+# How to run this project
+
+1. Install dependencies (only once):
+
+npm install
+
+2. Start the development server:
+
+npm run dev
+
+# The app will be available at the local address shown in the terminal (usually http://localhost:5173)

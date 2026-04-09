@@ -1,16 +1,16 @@
 const Activities = () => {
   const activities = [
     {
-      title: 'AI/ML Intern : Frost Digital Venture(Frost & sullivan)',
-      duration: '2025 november – 2026 January',
+      title: 'AI/ML Intern: Frost Digital Venture (Frost & Sullivan)',
+      duration: 'November 2025 – January 2026',
       description:
-        'Working as AI/ML intern focused on machine learning and AI, contributing to real-world projects involving data preprocessing, model development, and deployment. Gained hands-on experience in applying ML techniques to solve practical problems under supervison of Mr. Binayek Pokhrel',
+        'Worked as an AI/ML intern focused on machine learning and AI, contributing to real-world projects involving data preprocessing, model development, and deployment. Gained hands-on experience applying ML techniques to practical problems under the supervision of Mr. Binayek Pokhrel.',
     },
     {
       title: 'Project Lead – Code for Change',
       duration: '2024 – 2025',
       description:
-        'Led a student IT community of 50+ members from 10 colleges in chitwan, overseeing planning, task allocation, and smooth operations, managing resources, finances and Organized 20+ workshops and events and boosted student participation by 60% , Established partnerships with IT professionals, clubs, and colleges to expand community activities.',
+        'Led a student IT community of 50+ members from 10 colleges in Chitwan, overseeing planning, task allocation, and smooth operations. Managed resources and finances, organized 20+ workshops and events, boosted student participation by 60%, and built partnerships with IT professionals, clubs, and colleges.',
     },
     {
       title: 'Microsoft Learn Student Ambassador',

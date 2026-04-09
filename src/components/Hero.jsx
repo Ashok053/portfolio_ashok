@@ -13,14 +13,22 @@ const Hero = () => {
             </span>
           </h1>
 
+
           <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8" itemProp="jobTitle">
-            Machine Learning Engineer | AI Developer
+            Machine Learning Engineer | Associate AI Engineer @ Frost Digital Venture
           </h2>
 
+
+<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-6">
+  Based in Nepal, building practical AI systems with deep learning, NLP, and LLM applications.
+</p>
+
+
 <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8" itemProp="description">
-          I build intelligent systems that solve real-world problems. I completed my internship as <strong>AI/ML Intern at Frost Digital Venture</strong>, exploring Deep Learning, 
-            NLP, LLMs, and Generative AI through hands-on projects and continuous learning.
-          </p>
+  I build intelligent systems that solve real-world problems. 
+  After successfully completing my internship at <strong>Frost Digital Venture</strong>, 
+  I have joined the team full-time as an <strong>Associate AI Engineer</strong>. My journey here has deepened my expertise in Deep Learning, NLP, LLMs, and Generative AI, and I now contribute to impactful projects, driving innovation and delivering AI-powered solutions.
+</p>
 
           <div className="flex md:justify-start justify-center gap-4 flex-wrap">
             <a
@@ -50,18 +58,6 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="hidden" itemScope itemType="https://schema.org/Person">
-            <span itemProp="name">Ashok Lamsal</span>
-            <span itemProp="jobTitle">Machine Learning Engineer</span>
-            <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <span itemProp="addressCountry">Nepal</span>
-            </span>
-            <span itemProp="knowsAbout">Machine Learning</span>
-            <span itemProp="knowsAbout">Deep Learning</span>
-            <span itemProp="knowsAbout">Natural Language Processing</span>
-            <span itemProp="knowsAbout">Large Language Models</span>
-            <span itemProp="knowsAbout">Generative AI</span>
-          </div>
       </div>
     </section>
   )

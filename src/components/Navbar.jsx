@@ -10,11 +10,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     { name: 'Projects', href: '#projects' },
     { name: 'Blogs', href: '#blogs' },
     { name: 'Activities', href: '#activities' },
+    { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: '#contact' },
   ]
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
+    <nav aria-label="Primary" className="fixed w-full top-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
@@ -23,8 +24,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <a
               href="#home"
               className="text-xl font-bold text-blue-600 dark:text-blue-400"
+              aria-label="Ashok Lamsal portfolio home"
             >
-              Ashok's Portfolio
+              Ashok Lamsal
             </a>
           </div>
 
@@ -43,6 +45,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <button
               onClick={() => setDarkMode(!darkMode)}
               className="p-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
+              aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {darkMode ? '☀️' : '🌙'}
             </button>
@@ -53,6 +56,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <button
               onClick={() => setDarkMode(!darkMode)}
               className="p-2 mr-2 rounded-lg bg-gray-200 dark:bg-gray-800"
+              aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {darkMode ? '☀️' : '🌙'}
             </button>
@@ -60,6 +64,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 dark:text-gray-300"
+              aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
             >
               <svg
                 className="h-6 w-6"

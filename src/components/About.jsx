@@ -21,16 +21,17 @@ const About = () => {
               I'm <span itemProp="name"><strong>Ashok Lamsal</strong></span>, a final year{' '}
               <span itemProp="alumniOf">Computer Science student</span> with a deep passion for{' '}
               <strong>artificial intelligence</strong> and <strong>machine learning</strong>. 
-              Currently, I had completed my internship as {' '}
+              I successfully completed my internship as{' '}
               <span itemProp="jobTitle">
                 <strong>AI/ML Intern at Frost Digital Venture</strong>
               </span>{' '}
-              (Frost and Sullivan) in <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+              and now work as an <strong>Associate AI Engineer</strong> in{' '}
+              <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
                 <span itemProp="addressCountry">Nepal</span>
               </span>.
             </p>
             <p>
-              My journey into <strong>ML</strong> began with fascination about how machines can learn from data and make intelligent decisions.
+              My journey into <strong>machine learning</strong> began with fascination about how machines can learn from data and make intelligent decisions.
               Through coursework and self-driven projects, I've gained hands-on experience in building and deploying{' '}
               <strong>machine learning models</strong>. I'm particularly interested in{' '}
               <strong>Natural Language Processing (NLP)</strong>, <strong>Large Language Models (LLMs)</strong>,{' '}
@@ -39,7 +40,7 @@ const About = () => {
             <p>
               I believe in <em>learning by building</em>. Each project I work on is an opportunity to deepen my understanding 
               of <strong>ML algorithms</strong>, experiment with new techniques, and add a block in my journey. I'm actively seeking{' '}
-              <strong>Junior/Fresher ML Engineer roles</strong> where I can apply my skills, learn from experienced engineers, 
+              <strong>machine learning and AI engineering opportunities</strong> where I can apply my skills, learn from experienced engineers, 
               and make meaningful contributions to innovative AI solutions.
             </p>
             <p>
@@ -50,15 +51,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Hidden SEO keywords */}
-        <div className="hidden">
-          <span itemProp="knowsAbout">Python Programming</span>
-          <span itemProp="knowsAbout">Deep Learning</span>
-          <span itemProp="knowsAbout">TensorFlow</span>
-          <span itemProp="knowsAbout">PyTorch</span>
-          <span itemProp="knowsAbout">Computer Vision</span>
-          <span itemProp="knowsAbout">Data Science</span>
-        </div>
       </div>
     </section>
   )

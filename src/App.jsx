@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Blogs from './components/Blogs'
 import Activities from './components/Activities'
+import SeoFaq from './components/SeoFaq'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -22,14 +23,20 @@ function App() {
 
   return (
     <div className="min-h-screen">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:text-gray-900 focus:px-3 focus:py-2 focus:rounded-md focus:z-50">
+        Skip to main content
+      </a>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Blogs />
-      <Activities />
-      <Contact />
+      <main id="main-content">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Blogs />
+        <Activities />
+        <SeoFaq />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )
