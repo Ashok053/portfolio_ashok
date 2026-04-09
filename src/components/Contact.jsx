@@ -5,8 +5,8 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
 
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-12">
-          I'm actively seeking Junior/Associate opportunities in machine learning and AI.
-          Let's connect and discuss how I can contribute to your team!
+          I currently work as an Associate AI Engineer and I&apos;m open to discussing how I can help your team solve real-world problems.
+          I&apos;m also open to new roles, opportunities, and impactful collaborations in AI and machine learning.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
